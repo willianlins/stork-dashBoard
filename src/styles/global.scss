@@ -10,6 +10,8 @@
   --gray-background: #C5CCD8;
   --white: #FFFFFF;
 
+  --border: #E6E8EC;
+
   --color-bar: #6C5DD3;
 
 }
@@ -35,6 +37,7 @@ body{
 body, input, textarea, select, button {
   font: 400 1rem 'Inter', sans-serif;
 }
+
 button{
   cursor: pointer;
 }

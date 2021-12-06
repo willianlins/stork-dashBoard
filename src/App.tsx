@@ -1,9 +1,13 @@
+import { SiderBar } from "./components/SideBar"
+
 import './styles/global.scss'
 
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <>
+      <SiderBar />
+    </>
   );
 }
 
