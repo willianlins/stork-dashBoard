@@ -1,0 +1,43 @@
+.TabBarContainer{
+  min-width: 1400px;
+  width: calc(100% - 252px);
+  height: 85px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 11px 0px #E6E8EC;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+ 
+
+  ul{
+    list-style: none;
+    font-size: 17.5px;
+    margin-left: 20px;
+    
+    li{
+      display: inline;
+      font-weight: 500;
+      a{
+        height: 85px;
+        display: inline-block;
+        line-height: 85px;
+        text-align: center;
+        padding: 0 30px;
+      }
+
+      a:hover{
+        color: var(--black);
+        border-bottom: 2px solid var(--black);
+        transition: color 0.4s linear, border 0.2s linear;
+      }
+
+      .linkActived{
+        color: var(--black);
+        border-bottom: 2px solid var(--black);
+      }
+
+    }
+    
+  }
+}
+

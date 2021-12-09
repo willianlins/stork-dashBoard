@@ -1,11 +1,13 @@
 .headerContainer{
-  width: 100%;
+  min-width: 1400px;
+  width: calc(100% - 252px);
   height: 78px;
   background-color: var(--white);
   box-shadow: 0 0 10px 0 #E6E8EC;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
 }
 
 .headerDashboard{

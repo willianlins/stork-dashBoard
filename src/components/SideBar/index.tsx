@@ -11,7 +11,7 @@ export function SiderBar() {
       <nav className={styles.navContainer}>
         <ul>
           <li>
-            <a href='localhost:3000'>
+            <a href='localhost:3000' className={styles.linkActived}>
               <img src="/assets/True.png" alt='Dashboard' />
               <span>Dashboard</span>
             </a>

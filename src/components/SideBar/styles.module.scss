@@ -51,7 +51,12 @@
       }
     }
   }
+}
 
+.linkActived{
+      color: var(--white);
+      border-right: solid 3px var(--white);
+      transition: color 0.4s linear, border 0.2s linear;
 }
 
 .footerContainer{

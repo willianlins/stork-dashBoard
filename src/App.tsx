@@ -1,5 +1,7 @@
-import { SiderBar } from "./components/SideBar"
-import { Header } from "./components/Header"
+import { SiderBar } from "./components/SideBar";
+import { Header } from "./components/Header";
+import { TabBar } from "./components/TabBar";
+import { Widgets } from "./components/Widgets";
 
 import './styles/global.scss'
 
@@ -9,6 +11,8 @@ function App() {
     <>
       <SiderBar />
       <Header />
+      <TabBar />
+      <Widgets />
     </>
   );
 }
